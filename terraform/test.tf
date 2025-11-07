@@ -1,11 +1,11 @@
-module "aftacc1" {
+module "aftacc3" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "hwalan.lee+aftacc1@bespinglobal.com"
-    AccountName               = "aftacc1"
+    AccountEmail              = "hwalan.lee+aftacc3@bespinglobal.com"
+    AccountName               = "aftacc3"
     ManagedOrganizationalUnit = "AFT-Accounts"
-    SSOUserEmail              = "hwalan.lee+aftacc1@bespinglobal.com"
+    SSOUserEmail              = "hwalan.lee+aftacc3@bespinglobal.com"
     SSOUserFirstName          = "hwalan"
     SSOUserLastName           = "lee"
   }
@@ -23,5 +23,5 @@ module "aftacc1" {
     group = "non-prod"
   }
 
-  account_customizations_name = "aftacc1"
+  account_customizations_name = "aftacc3"
 }
