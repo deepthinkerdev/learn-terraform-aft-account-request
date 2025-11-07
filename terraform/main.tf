@@ -5,7 +5,7 @@ module "sandbox" {
     AccountEmail              = "hwalan.lee+aftacc1@bespinglobal.com"
     AccountName               = "aftacc1"
     ManagedOrganizationalUnit = "AFT-Accounts"
-    SSOUserEmail              = "hwalan.lee@bespinglobal.com"
+    SSOUserEmail              = "hwalan.lee+aftacc1@bespinglobal.com"
     SSOUserFirstName          = "hwalan"
     SSOUserLastName           = "lee"
   }
